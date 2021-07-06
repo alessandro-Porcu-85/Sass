@@ -1,0 +1,211 @@
+@import url(http://fonts.googleapis.com/css?family=Exo+2:400,200,600,800);
+
+/*------SCSS Variables-------*/
+
+
+/*---x---SCSS Variables---x---*/
+
+* {
+    margin: 20px;
+    padding: 0px;
+}
+
+body,
+ul,
+li {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font: 200 1em/1.5em "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#main-wrapper {
+    position: relative;
+    min-height: 100vh;
+    background-color: red;
+}
+
+header {
+    height: 100px;
+    background-image: linear-gradient(to bottom, #0a5c71, #063642);
+    position: relative;
+    border: 20px solid;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    position: absolute;
+    bottom: 2px;
+}
+
+.li {
+    display: flex;
+    margin: 0 45px;
+    vertical-align: baseline;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.main {
+    margin: 20px 0 0;
+    padding-bottom: 20px;
+}
+
+.footer {
+    background: #333333;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+a img {
+    width: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10px;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    font-size: 24px;
+    color: white;
+}
+
+img {
+    width: 15%;
+    margin-left: 20px;
+    border: 2 solid;
+}
+
+.scene {
+    background-color: blue;
+    border-radius: 20px;
+}
+
+.group {
+    justify-content: center;
+}
+
+
+/*-------@Mixin--------*/
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+a:hover {
+    color: yellow;
+}
+
+@media screen and (max-width: 640px) {
+    a {
+        background: red;
+    }
+}
+
+
+/*---x---Mixin----x---*/
+
+.gallery {
+    justify-content: center;
+    display: flex;
+}
+
+
+/*--------@For---------*/
+
+.link-5 {
+    width: 5%;
+}
+
+.link-10 {
+    width: 10%;
+}
+
+.link-15 {
+    width: 15%;
+}
+
+.link-20 {
+    width: 20%;
+}
+
+.link-25 {
+    width: 25%;
+}
+
+.link-30 {
+    width: 30%;
+}
+
+.link-35 {
+    width: 35%;
+}
+
+.link-40 {
+    width: 40%;
+}
+
+.link-45 {
+    width: 45%;
+}
+
+.link-50 {
+    width: 50%;
+}
+
+.link-55 {
+    width: 55%;
+}
+
+.link-60 {
+    width: 60%;
+}
+
+.link-65 {
+    width: 65%;
+}
+
+.link-70 {
+    width: 70%;
+}
+
+.link-75 {
+    width: 75%;
+}
+
+.link-80 {
+    width: 80%;
+}
+
+.link-85 {
+    width: 85%;
+}
+
+.link-90 {
+    width: 90%;
+}
+
+.link-95 {
+    width: 95%;
+}
+
+.link-100 {
+    width: 100%;
+}
+
+
+/*---x----@For----x---*/
+
+
+/*# sourceMappingURL=styles.css.map */
